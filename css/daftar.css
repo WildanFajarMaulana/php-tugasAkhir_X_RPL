@@ -1,0 +1,269 @@
+@font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+body {
+    background-color: #f2f2f2;
+}
+
+section {
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 8px;
+}
+
+.h3log {
+    text-align: center;
+    font-family: "Aquire";
+    padding-top: 50px;
+    color: grey;
+    font-weight: 600;
+}
+
+.h4log {
+    font-family: "Aquirebiasa";
+    text-align: center;
+    padding-top: -50px;
+    font-weight: 700;
+
+}
+
+.hayukhr {
+    width: 30%;
+    border-color: orange;
+}
+
+.input-box{
+        position: relative;
+        margin-bottom: 30px;
+        width: 70%;
+    }
+    .input-box input {
+        
+        border: none;
+        background: none;
+        border-bottom: 2px solid orange;
+        outline: :none;
+        color: grey;
+        font-size: 18px;
+        width: 100%;
+        outline: none;
+        
+    }
+    .input-box label{
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 3px 6px;
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+        color: grey;
+    }
+    .input-box input:focus ~label,
+    .input-box input:valid ~label{
+        top: -20px;
+        left: 0;
+        outline: none;
+        font-size: 12px;
+        color:black;
+        font-weight: bold;
+    }
+    .input box input:hover{
+        outline: none;
+    }
+.btn {
+    background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.linked {
+    color: white;
+    text-shadow: 1px 2px 1px black;
+}
+
+.kerenboy {
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    animation: anime 7s linear infinite;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+}
+.kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    section {
+        height: 600px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 35%;
+        margin-top: 30px;
+        margin-left: 380px;
+        border-radius: 8px;
+    }
+
+    .h3log {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-weight: 600;
+        font-family: "Aquire";
+    }
+
+    .h4log {
+        text-align: center;
+        padding-top: -50px;
+        font-weight: 700;
+        font-family: "Aquirebiasa";
+    }
+
+    .hayukhr {
+        width: 30%;
+        border-color: orange;
+    }
+
+   
+    .input-box{
+        position: relative;
+        margin-bottom: 30px;
+        width: 70%;
+    }
+    .input-box input {
+        
+        border: none;
+        background: none;
+        border-bottom: 2px solid orange;
+        outline: :none;
+        color: grey;
+        font-size: 18px;
+        width: 100%;
+        
+    }
+    .input-box label{
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 3px 6px;
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+        color: grey;
+    }
+    .input-box input:focus ~label,
+    .input-box input:valid ~label{
+        top: -20px;
+        left: 0;
+        font-size: 12px;
+        color:black;
+        font-weight: bold;
+    }
+    .btn {
+        background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+        margin-top: 30px;
+        width: 50%;
+        border-radius: 100px;
+        font-weight: 600;
+    }
+
+    a.linkcadangan {
+        margin-top: 50px;
+    }
+
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    .kerenboy {
+        border: none;
+        width: 240px;
+        height: 40px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}

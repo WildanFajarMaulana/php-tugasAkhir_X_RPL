@@ -1,0 +1,622 @@
+@font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+.navbar-click {
+    background-color: black;
+    transition: .5s ease-in-out;
+    min-height: 230px;
+}
+
+.navbar-fixed {
+    transition: .3s ease-in-out;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar-brand {
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-family: 'Aquire';
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Aquire';
+    margin-right: 30px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid orange;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.navbar-toggler {
+    text-align: right;
+    margin-top: 7px;
+}
+
+.jumbotron {
+    background-image: url("../img/tema3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+    font-family: monoton;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 210px;
+    font-size: 27px;
+    font-family: 'Aquire';
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.btn {
+    background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    text-shadow: 1px 0px 1px black;
+    font-family: 'Alata', sans-serif;
+
+}
+
+.button1 {
+    text-transform: uppercase;
+    text-shadow: 1px 0px 1px black;
+    width: 100%;
+    margin-top: 3px;
+    color: black;
+
+}
+
+
+
+.h3ni {
+    text-align: center;
+    padding-top: 0px;
+    color: grey;
+    font-weight: 600;
+}
+
+.h4ni {
+    text-align: center;
+    padding-top: -50px;
+    font-weight: 700;
+}
+
+.garishr {
+    width: 10%;
+    border-color: orange;
+}
+
+.kotak1 {
+    height: 160px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.kotak2 {
+    height: 390px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.ko1 {
+    width: 100%;
+    height: 180px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.ko2 {
+    width: 100%;
+    height: 180px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.ko3 {
+    width: 100%;
+    height: 180px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.garishr {
+    width: 10%;
+    border-color: orange;
+}
+
+
+.hrbox {
+    width: 20%;
+    border-color: black;
+}
+
+.h2ni {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    margin-top: -10px;
+    font-size: 22px;
+}
+
+.pni {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 0;
+    margin-top: -5px;
+}
+
+.font-kontak{
+    margin-top: 30px;
+    color: orange;
+    margin-bottom: 30px;
+   }
+
+.inputan1 input {
+    margin-top: 20px;
+    width: 96%;
+    margin-left: 15px;
+}
+
+.inputan2 input {
+    margin-top: 20px;
+    width: 97%;
+    margin-left: 0px;
+}
+
+.inputan3 input {
+    margin-top: 20px;
+}
+
+.inputan4 textarea {
+    margin-top: 20px;
+    height: 150px;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #ffff00 2%, #ff93 98%);
+    margin-top: 30px;
+    width: 50%;
+    border: none;
+    color: black;
+}
+.btn-primary:hover{
+    background: black;
+    color: white;
+}
+
+
+
+.pjumbo {
+    font-size: 13px;
+    font-family: 'Aquirebiasa';
+    color: white;
+}
+
+.kerenboy {
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+    background-size: 600%;
+    animation: anime 7s linear infinite;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+        font-family: 'Aquire';
+
+}
+.kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+
+.linked {
+    color: white;
+    text-shadow: 1px 2px 1px black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.divfooter{
+        background-color: orange;
+        height: 5px;
+        margin-top: 80px;
+    }
+    .section-footer{
+        background-color: black;
+        height: 200px;
+        padding: 35px;
+    }
+    .h5-footer{
+        color: white;
+        font-family: 'Aquire';
+        font-size: 20px;
+        
+    }
+    .font-footer{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .p-footer{
+        color: #e6e6e6;
+        letter-spacing: 3px;
+    }
+
+
+
+
+@media (min-width: 992px) {
+    .navbar {
+        background-color: transparent;
+        transition: .3s ease-in-out;
+        height: 80px;
+        z-index: 99999;
+    }
+
+    .navbar-click {
+        transition: .3s ease-in-out;
+        min-height: 70px;
+
+    }
+
+    .navbar-fixed {
+        transition: .3s ease-in-out;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 500;
+        font-family: 'Aquire';
+        font-size: 34px;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 500;
+        font-family: 'Aquire';
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+         font-size: 17px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        height: 735px;
+        margin-top: -80px;
+        background-attachment: fixed;
+        font-family: 'Alata', sans-serif;
+    }
+
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 60px;
+        font-family: 'Aquire';
+        letter-spacing: 5px;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+    }
+
+   
+   
+    .kontakform {
+        height: 1000px;
+        width: 90%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        margin-left: 60px;
+        background-color: white;
+    }
+
+    .kotak1 {
+        height: 160px;
+        width: 93%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .kotak2 {
+        height: 390px;
+        width: 93%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .ko1 {
+        width: 80%;
+        height: 200px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .ko2 {
+        width: 80%;
+        height: 200px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .ko3 {
+        width: 80%;
+        height: 200px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .h3ni {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-weight: 600;
+         font-family: 'Aquire';
+    }
+
+    .h4ni {
+        text-align: center;
+         font-family: 'Aquirebiasa';
+        padding-top: -50px;
+        font-weight: 700;
+    }
+
+    .garishr {
+        width: 10%;
+        border-color: orange;
+    }
+
+    
+
+    .hrbox {
+        width: 15%;
+        border-color: black;
+    }
+
+    .h2ni {
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        margin-top: -10px;
+    }
+
+    .pni {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 0;
+        margin-top: -5px;
+    }
+
+   .font-kontak{
+    margin-top: 30px;
+    color: orange;
+    margin-bottom: 30px;
+   }
+
+    .inputan1 input {
+        margin-top: 20px;
+        width: 96%;
+    }
+
+    .inputan2 input {
+        margin-top: 20px;
+        width: 97%;
+        margin-left: 0px;
+    }
+
+    .inputan3 input {
+        margin-top: 20px;
+    }
+
+    .inputan4 textarea {
+        margin-top: 20px;
+        height: 150px;
+    }
+
+    .btn-primary {
+    background: linear-gradient(to right, #ffff00 2%, #ff93 98%);
+    margin-top: 30px;
+    width: 50%;
+    border: none;
+    color: black;
+}
+    .btn-primary:hover{
+        background: black;
+        color: white;
+    }
+
+    .pjumbo {
+        font-size: 18px;
+        font-family: 'Aquirebiasa';
+        color: white;
+    }
+
+    
+    .kerenboy {
+        border: none;
+        width: 100px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+         font-family: 'Aquire';
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .divfooter{
+        background-color: orange;
+        height: 5px;
+        margin-top: 80px;
+    }
+    .section-footer{
+        background-color: black;
+        height: 200px;
+        padding: 35px;
+    }
+    .h5-footer{
+        color: white;
+        font-family: 'Aquire';
+        font-size: 30px;
+    
+    }
+    .font-footer{
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .p-footer{
+        color: #e6e6e6;
+        letter-spacing: 5px;
+    }
+}

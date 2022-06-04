@@ -1,0 +1,363 @@
+@font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+ body {
+       
+    }
+
+    section {
+        height: 735px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        margin-top: 60px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    .foto{
+        width: 100px;
+        margin-left: -30px;
+        display: none;
+    }
+    .h3profil {
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .h3log {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-weight: 600;
+        font-family: "Aquire";
+    }
+
+    .h4log {
+        text-align: center;
+        padding-top: -50px;
+        font-family: "Aquirebiasa";
+        font-weight: 700;
+
+    }
+
+    .hayukhr {
+        width: 22%;
+        border-color: orange;
+    }
+
+    .textbox {
+        width: 73%;
+        border-color: orange;
+        margin-top: 12px;
+        margin-left: 50px;
+    }
+
+    input {
+        
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 73%;
+        border-bottom: 2px solid orange;
+        padding: 10px;
+
+    }
+    textarea{
+        
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 73%;
+        border-bottom: 2px solid orange;
+        padding: 10px;
+
+    }
+      label{
+        font-weight: bold;
+        padding-right: 155px;
+        font-size: 13px;
+        padding-bottom: -40px;
+    }
+    .label-info{
+         font-weight: bold;
+         font-size: 13px;
+        padding-right: 125px;
+        padding-top: -20px;
+    }
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    .kerenboy {
+        border: none;
+        outline: none;
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+     .img-fluid {
+        
+        border-radius: 5px;
+        border-style: none;
+        margin-top: 35px;
+        width: 60%;
+        height: 175px;
+        margin-left: -70px;
+        background-size: cover;
+        
+    }
+    .bgfoto{
+        margin-top: -25px;
+    }
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    section {
+        height: 820px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 50%;
+        margin-top: -200px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    .foto{
+        width: 100px;
+        margin-left: -30px;
+        display: none;
+    }
+    .h3profil {
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .h3log {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-family: "Aquire";
+        font-weight: 600;
+    }
+
+    .h4log {
+        text-align: center;
+        padding-top: -50px;
+        font-family: "Aquirebiasa";
+        font-weight: 700;
+
+    }
+
+    .hayukhr {
+        width: 22%;
+        border-color: orange;
+    }
+
+    
+
+    input {
+        margin-top: -10px;
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 73%;
+        padding: 10px;
+
+
+    }
+    .namaisi-univ{
+        border-bottom: 2px solid orange;
+    }
+    textarea{
+        margin-top: -10px;
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 73%;
+        height: 150px;
+        border-bottom: 2px solid orange;
+        padding: 10px;
+        resize: none;
+
+    }
+    label{
+        font-weight: bold;
+        padding-right: 275px;
+        font-size: 13px;
+        padding-bottom: -40px;
+    }
+    .label-info{
+         font-weight: bold;
+         font-size: 13px;
+        padding-right: 255px;
+        padding-top: -20px;
+    }
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    .kerenboy {
+        border: none;
+        outline: none;
+        width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+     .img-fluid {
+        
+        border-radius: 5px;
+        border-style: none;
+        margin-top: 35px;
+        width: 73%;
+        height: 175px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        background-size: cover;
+        
+    }
+    .bgfoto{
+        margin-top: -25px;
+    }
+
+    .jumbotron {
+
+        background-size: cover;
+        background-image: url("../img/infoptnpts.jpg");
+        height: 535px;
+        margin-top: -80px;
+        background-attachment: fixed;
+        font-family: "Aquire";
+        position: relative;
+    }
+
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .container {
+        z-index: 1;
+        position: relative;
+    }
+
+    .h3info {
+        padding-top: 100px;
+        text-align: center;
+        color: white !important;
+        font-weight: 550;
+        font-size: 50px;
+    }
+
+    .hrbaru {
+        border-color: orange;
+        width: 20%;
+    }
+      .p-foto{
+        color: var(--danger );
+        margin-right: 240px;
+        margin-top: -5px;
+        font-size: 13px;
+
+    }
+
+} 

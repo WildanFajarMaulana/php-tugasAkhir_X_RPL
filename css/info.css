@@ -1,0 +1,502 @@
+@font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+.navbar-click {
+    background-color: black;
+    transition: .5s ease-in-out;
+    min-height: 230px;
+}
+
+.navbar-fixed {
+    transition: .3s ease-in-out;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar-brand {
+    font-family: 'Aquire';
+    font-size: 25px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-family: 'Aquire';
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid orange;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.navbar-toggler {
+    text-align: right;
+    margin-top: 7px;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    text-shadow: 1px 0px 1px black;
+    font-family: 'Alata', sans-serif;
+}
+
+.button1 {
+    text-transform: uppercase;
+    text-shadow: 1px 0px 1px black;
+    width: 100%;
+    margin-top: 3px;
+    background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+}
+
+.jumbotron {
+    background-image: url("../img/temalanding.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+    font-family: monoton;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 210px;
+    font-size: 24px;
+    font-family: 'Aquire';
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+
+}
+
+.jumbotron span {
+    color: white;
+    font-size: 13px;
+    font-family: 'Aquirebiasa';
+}
+
+.box1 {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-top: 20px;
+}
+
+.box2 {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-top: 20px;
+}
+
+.h3info {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.gradnew {
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+
+}
+
+.h5info {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.btn {
+        margin-top: 20px;
+        width: 80%;
+        background: linear-gradient(to right, #ffff00 2%, #ff93 98%);
+        outline: none;
+        border: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .btn:hover{
+        background: black;
+        outline: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+    }
+.product {
+    text-align: center;
+    color: #b3b3b3;
+    font-family: 'aquire';
+    font-weight: 700;
+    margin-top: -50px;
+}
+
+.isinya {
+    text-align: center;
+    color: black;
+    font-family: 'Aquirebiasa';
+    font-weight: 600;
+}
+
+
+.kerenboy {
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+    background-size: 600%;
+    animation: anime 7s linear infinite;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+    font-family: 'aquire';
+
+}
+.kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+.linked {
+    color: white;
+    text-shadow: 1px 2px 1px black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    .divfooter{
+        background-color: orange;
+        height: 5px;
+        margin-top: 80px;
+    }
+    .section-footer{
+        background-color: black;
+        height: 200px;
+        padding: 35px;
+    }
+    .h5-footer{
+        color: white;
+        font-family: 'Aquire';
+        font-size: 20px;
+        
+    }
+    .font-footer{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .p-footer{
+        color: #e6e6e6;
+        letter-spacing: 3px;
+    }
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar {
+        background-color: transparent;
+        transition: .3s ease-in-out;
+        height: 80px;
+        z-index: 99999;
+    }
+
+    .navbar-click {
+        transition: .3s ease-in-out;
+        min-height: 70px;
+
+    }
+
+    .navbar-fixed {
+        transition: .3s ease-in-out;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 500;
+        font-family: 'aquire';
+         font-size: 17px;
+    }
+
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 1000;
+        font-family: 'aquire';
+        font-size: 34px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        background-image: url("../img/temalanding.jpg");
+        background-size: cover;
+        height: 740px;
+        margin-top: -80px;
+        background-attachment: fixed;
+        font-family: 'Alata', sans-serif;
+    }
+
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 60px;
+        font-family: 'Aquire';
+        text-shadow: 1px 1px 11px rgba(0, 0, 0, 0.9);
+        letter-spacing: 5px;
+        top: 0px;
+        color: #e6e6e6;
+    }
+
+    .jumbotron span {
+        font-size: 25px;
+        color: white;
+        font-family: 'Aquirebiasa';
+    }
+
+    /*utility*/
+    .tombol {
+        text-transform: uppercase;
+        border-radius: 40px;
+        text-shadow: 1px 0px 1px black;
+        font-family: 'Alata', sans-serif;
+
+    }
+
+    .button1 {
+        text-transform: uppercase;
+        text-shadow: 1px 0px 1px black;
+        width: 50%;
+        margin-top: 3px;
+        border-radius: 40px;
+        background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+    }
+
+    .box1 {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    .h3info {
+        padding-top: 40px;
+        font-weight: 600;
+    }
+
+    .gradnew {
+        width: 150px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .h5info {
+        text-align: center;
+        margin-top: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .btn {
+        margin-top: 20px;
+        width: 80%;
+        background: linear-gradient(to right, #ffff00 2%, #ff93 98%);
+        border: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+    }
+
+    .btn:hover{
+        background: black;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+        border: none;
+    }
+   
+
+    .product {
+        text-align: center;
+        color: #b3b3b3;
+        font-weight: 700;
+        margin-top: -50px;
+        font-family: 'aquire';
+    }
+
+    .isinya {
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-family: 'Aquirebiasa';
+    }
+
+    .kerenboy {
+        border: none;
+        width: 100px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+        font-family: 'aquire';
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+     .divfooter{
+        background-color: orange;
+        height: 5px;
+        margin-top: 80px;
+    }
+    .section-footer{
+        background-color: black;
+        height: 200px;
+        padding: 35px;
+    }
+    .h5-footer{
+        color: white;
+        font-family: 'Aquire';
+        font-size: 30px;
+    
+    }
+    .font-footer{
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .p-footer{
+        color: #e6e6e6;
+        letter-spacing: 5px;
+    }
+}

@@ -1,0 +1,358 @@
+ @font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+ .navbar {
+        background-color: black;
+        transition: .3s ease-in-out;
+        height: 80px;
+        z-index: 99999;
+    }
+
+    .navbar-click {
+        transition: .3s ease-in-out;
+        min-height: 70px;
+
+    }
+
+    .navbar-fixed {
+        transition: .3s ease-in-out;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0px;
+    }
+
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 500;
+        font-family: 'aquire';
+         font-size: 17px;
+    }
+
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 1000;
+        font-family: 'aquire';
+        font-size: 34px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+   .kerenboy{
+        border: none;
+        width: 100px;
+        height: 40px;
+        outline: none;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        margin-left: 5px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+
+    }
+     .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+.containera{
+	min-height: 100px;
+	-webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.44);
+    margin-top: 100px;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 280px;
+}
+.foto{
+	width: 100%;
+	height: 300px;
+}
+.foto img{
+	width: 80%;
+	height: 300px;
+	vertical-align: middle;
+	background-position: center center;
+	margin-top: 40px;
+}
+.kotak{
+	width: 80%;
+	min-height: 50px;
+   	margin-top: 80px;
+    margin-bottom: 45px;
+    font-size: 17px;
+}
+.nama-univ{
+	text-align: center;
+	padding-top: 60px;
+	font-weight: 600;
+	font-size: 25px;
+
+}
+.informasi-univ{
+	text-align: left;
+	padding: 20px;
+}
+
+.komentar{
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+	width: 75%;
+	float: left;
+	margin-left: 80px;
+	margin-bottom: 30px;
+}
+
+.h3-komentar{
+	font-size: 14px;
+	text-align: left;
+	margin-left: 81px;
+	margin-bottom: 0px;
+}
+
+button{
+	outline: none;
+	border: none;
+	background-color: white;
+	margin-left: -70px;
+	font-size: 45px;
+	height: 40px;
+}
+button:hover{
+	color:orange; 
+}
+.fotoprofil{
+	width: 5%;
+	margin-right: 200px;
+	float: left;
+	margin-left: 70px;
+	margin-bottom: 30px;
+}
+.nama-komentar{
+	float: left;
+	margin-left: -190px;
+	font-size: 15px;
+	margin-top:0px;
+}
+.p-komentar{
+	margin-top: 20px;
+	margin-left: -190px;
+	float: left;
+	width: 300px;
+	font-size: 13px;
+	text-align: left;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black !important;
+}
+.p-tanggal{
+	margin-top: 20px;
+	margin-left:135px;
+	float: left;
+	font-size: 13px;
+}
+.fa-trash{
+	font-size: 10px;
+	color: black;
+	margin-left: -120px;
+	transition: 0.5s;
+}
+.fa-trash:hover{
+	color: red;
+}
+.divfooter{
+        background-color: orange;
+        height: 5px;
+        margin-top: 0px;
+    }
+    .section-footer{
+        background-color: black;
+        height: 200px;
+        padding: 35px;
+    }
+    .h5-footer{
+        color: white;
+        font-family: 'Aquire';
+        font-size: 30px;
+    
+    }
+    .font-footer{
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .p-footer{
+        color: #e6e6e6;
+        letter-spacing: 5px;
+    }		
+
+
+
+
+
+
+
+
+/*body{
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+	background-position: center;
+}
+
+.anjay{
+	min-height: 1000px;
+	width: 100%;
+	background-color: white;
+	top: 30px;
+	left: 0px;
+	-webkit-box-shadow: 20px 16px 7px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 20px 16px 7px 0px rgba(0,0,0,0.2);
+	box-shadow: 20px 16px 7px 0px rgba(0,0,0,0.2);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	bottom: 100px;
+	position: relative;
+}
+.h3coy{
+	text-align: center;
+	font-family: viga;
+	padding-top: 20px;
+}
+.img-fluid{
+	width: 96%;
+	height: 188px;
+	margin-left: 7px;
+	margin-top: 6px;
+}
+.brawi{
+	box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+	background-color: white;
+	margin-right: 30px;
+	margin-bottom:30px;
+}
+.teksisi{
+	padding-top: 40px;
+	position: absolute;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+}
+
+@media (min-width: 992px) {
+.navbar-brand{
+	background-color: black;
+	color: orange;
+	box-shadow: 0 3px 25px rgba(0,0,0,0.5);
+	margin-top: 20px;
+	width: 10%;
+	text-align: center;
+}
+
+.wrap{
+	width: 100%;
+	min-height: 100px;
+	background-color:#fff;
+	margin-top: -20px;
+	margin-bottom: 50px;		
+	margin-left: 0px;
+	-webkit-box-shadow: 20px 16px 7px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 20px 16px 7px 0px rgba(0,0,0,0.2);
+	box-shadow: 20px 16px 7px 0px rgba(0,0,0,0.2);
+}
+.nama-univ{
+	margin-top: 50px;
+	width: 100%;
+	font-family: viga;
+	padding-top: 20px;
+	background-color: #fff;
+
+
+}
+.img-fluid{
+	width: 95%;
+	height: 188px;
+	margin-left: 7px;
+	margin-top: 6px;
+}
+.foto-univ{
+	box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+	float: left;
+	height: 200px;
+	width: 100%;
+	background-color: white;
+	margin-right: 30px;
+	margin-top:40px;
+	margin-bottom:5px;
+}
+.deskripsi{
+	padding-top: 35px;
+	text-indent: 50px;
+	text-align: left;
+}
+
+}
+*/

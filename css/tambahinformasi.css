@@ -1,0 +1,602 @@
+ @font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+ body {
+        background-color: #f2f2f2;
+    }
+      
+    .navbar-click {
+        transition: .3s ease-in-out;
+        min-height: 70px;
+        background-color: black;
+    }
+    .navbar-fixed {
+        transition: .3s ease-in-out;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+    }
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 1000;
+        font-family: 'Aquire';
+        font-size: 34px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-family: 'Aquire';
+        font-size: 17px;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px black;
+        font-weight: 500;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron {
+
+        background-size: cover;
+        background-image: url("../img/infoptnpts.jpg");
+        height: 460px;
+        margin-top: -80px;
+        background-attachment: fixed;
+        font-family: 'Alata', sans-serif;
+        position: relative;
+    }
+
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .container {
+        z-index: 1;
+        position: relative;
+    }
+    .h3info {
+        padding-top: 150px;
+        text-align: center;
+        color: white !important;
+        font-weight: 550;
+        font-family: "Aquire";
+        font-size: 30px;
+    }
+
+    .hrbaru {
+        border-color: orange;
+        width: 20%;
+    }
+
+
+
+    section {
+        height: 610px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        margin-top: -110px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    .foto{
+        width: 100px;
+        margin-left: -320px;
+        display: none;
+    }
+    .h3profil {
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .h3log {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-family: "Aquire";
+        font-weight: 600;
+    }
+
+    .h4log {
+        text-align: center;
+        padding-top: -50px;
+        font-family: "Aquirebiasa";
+        font-weight: 700;
+
+    }
+
+    .hayukhr {
+        width: 22%;
+        border-color: orange;
+    }
+
+    .textbox {
+        width: 75%;
+        border-color: orange;
+        margin-top: 12px;
+        margin-left: 50px;
+    }
+
+   
+    
+    input {
+        margin-top: 0px;
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        margin-bottom: 10px;
+        width: 73%;
+        margin: 0 1-px;
+
+    }
+    .input-box{
+        position: relative;
+        width: 73%;
+    }
+    .input-box textarea{
+        margin-top: 13px;
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 100%;
+        height: 150px;
+        margin: 0 1-px;
+        resize: none;
+        border-bottom: 3px solid orange;
+
+    }
+    .input-box label{
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 16px;
+        padding-left: 3px;
+        color: grey;
+        transition: .5s;
+    }
+    .input-box textarea:focus ~ label,
+    .input-box textarea:valid ~ label{
+        top: -20px;
+        left: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 
+    }
+    .select-univ{
+        width: 73%;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+    .label-input{
+        font-weight: bold;
+        padding-right: 160px;
+    }
+    .label-input2{
+        font-weight: bold;
+        padding-right: 150px;
+    }
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    .kerenboy {
+        border: none;
+        outline: none;
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+
+
+@media (min-width: 992px) {
+    body {
+        background-color: #f2f2f2;
+    }
+     .navbar {
+        background-color: transparent;
+        transition: .3s ease-in-out;
+        height: 80px;
+        z-index: 99999;
+    }
+
+    .navbar-click {
+        transition: .3s ease-in-out;
+        min-height: 70px;
+
+    }
+
+    .navbar-fixed {
+        transition: .3s ease-in-out;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+
+    }
+
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 1000;
+        font-family: 'Aquire';
+        font-size: 34px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-family: 'Aquire';
+        font-size: 17px;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px black;
+        font-weight: 500;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+
+        background-size: cover;
+        background-image: url("../img/infoptnpts.jpg");
+        height: 460px;
+        margin-top: -80px;
+        background-attachment: fixed;
+        font-family: 'Alata', sans-serif;
+        position: relative;
+    }
+
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .container {
+        z-index: 1;
+        position: relative;
+    }
+    .h3info {
+        padding-top: 100px;
+        text-align: center;
+        color: white !important;
+        font-weight: 550;
+        font-family: "Aquire";
+        font-size: 50px;
+    }
+
+    .hrbaru {
+        border-color: orange;
+        width: 20%;
+    }
+
+
+    section {
+        height: 650px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 50%;
+        margin-top: -120px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    .foto{
+        width: 100px;
+        margin-left: -320px;
+        display: none;
+    }
+    .h3profil {
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .h3log {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-weight: 600;
+        font-family: "Aquire";
+    }
+
+    .h4log {
+        text-align: center;
+        padding-top: -50px;
+        font-weight: 700;
+        font-family: "Aquirebiasa";
+
+    }
+
+    .hayukhr {
+        width: 22%;
+        border-color: orange;
+    }
+
+    
+    .input-box{
+        position: relative;
+        width: 73%;
+    }
+    .input-box textarea{
+        margin-top: 13px;
+        border: none;
+        margin-bottom: 10px;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 100%;
+        height: 150px;
+        margin: 0 1-px;
+        resize: none;
+        border-bottom: 3px solid orange;
+
+    }
+    .input-box label{
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 16px;
+        padding-left: 3px;
+        color: grey;
+        transition: .5s;
+    }
+    .input-box input{
+        margin-top: 13px;
+        border: none;
+        margin-bottom: 10px;
+        background: none;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        width: 100%;
+        margin: 0 1-px;
+        resize: none;
+        border-bottom: 3px solid orange;
+
+    }
+    .input-box label{
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 16px;
+        padding-left: 3px;
+        color: grey;
+        transition: .5s;
+    }
+    .input-box textarea:focus ~ label,
+    .input-box textarea:valid ~ label,
+    .input-box input:focus ~ label,
+    .input-box input:valid ~ label{
+        top: -20px;
+        left: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 
+    }
+    .select-univ{
+        width: 73%;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+    .label-input{
+        font-weight: bold;
+        padding-right: 280px;
+    }
+    .label-input2{
+        font-weight: bold;
+        padding-right: 270px;
+    }
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    .kerenboy {
+        border: none;
+        outline: none;
+        width: 400px;
+        height: 40px;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .p-foto{
+        color: var(--danger );
+        margin-right: 260px;
+        margin-top: -5px;
+        font-size: 13px;
+
+    }
+
+
+
+    .autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+
+  font-size: 12px;
+
+ }
+ .input-complete{
+    border-bottom: 2px solid orange;
+    color: grey;
+ }
+
+input[type=text] {
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0%;
+  right: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+} 

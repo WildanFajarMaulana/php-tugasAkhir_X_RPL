@@ -1,0 +1,509 @@
+
+@font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+p
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}.navbar {
+    background-color: black;
+     
+}
+
+.navbar-brand {
+     font-family: "Aquire";
+    font-size: 25px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+     font-family: "Aquire";
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid orange;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.kotak {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 410px;
+    height: 660px;
+    background-color: white;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: -13px;
+}
+
+.kotak2 {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 410px;
+    height: 660px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -13px;
+    margin-bottom: 20px;
+}
+
+.h4coy {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.foto {
+    width: 30%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.box1 {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    background-color: orange;
+    height: 180px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.box2 {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    background-color: green;
+    height: 180px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.box3 {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    background-color: red;
+    height: 180px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.bo {
+    width: 30%;
+    border-radius: 40px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.hrprofil {
+    border-color: orange;
+    width: 72%;
+}
+
+.h5profil {
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+.p1 {
+    margin-top: -31px;
+    margin-left: 170px;
+}
+
+.h5profil2 {
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+.btn {
+    margin-top: 40px;
+    width: 80%;
+    background: linear-gradient(to right, #ffff00 2%, #ff93 98%);
+    color: black;
+    border:none;
+    outline: none;
+}
+.btn:hover{
+    color: white;
+}
+.hrprofil2{
+    border-color: orange;
+    width: 72%;
+    margin-top: 50px;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 2px 1px black;
+        font-weight: 500;
+         font-family: "Aquire";
+        font-size: 32px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+         font-family: "Aquire";
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px black;
+
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-size: 17px;
+        margin-right: 30px;
+        font-weight: 500;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .kotak {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 660px;
+        background-color: white;
+        margin-top: 90px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .kotak2 {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 660px;
+        background-color: white;
+        margin-top: 90px;
+        margin-left: -25px;
+        margin-bottom: 20px;
+    }
+
+    .h4coy {
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+
+    .foto {
+        width: 30%;
+        height: 150px;
+        margin-top: 20px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .box1 {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+        background-color: orange;
+        height: 180px;
+        width: 70%;
+        margin-left: 165px;
+        margin-top: 30px;
+        transition: .2s width,
+            .1s margin-right .2s,
+            1s background-color:blue;
+    }
+
+    .boxdouble {
+        width: 100%;
+        margin-right: 165px;
+    }
+
+    .boxcolor {
+        background-color: blue;
+    }
+
+    .box2 {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+        background-color: green;
+        height: 180px;
+        width: 70%;
+        margin-left: 165px;
+        margin-top: 30px;
+    }
+
+    .box3 {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+        background-color: red;
+        height: 180px;
+        width: 70%;
+        margin-left: 165px;
+        margin-top: 30px;
+    }
+
+    .bo {
+        width: 30%;
+        border-radius: 40px;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    .hrprofil {
+        border-color: orange;
+        width: 72%;
+    }
+
+    .h5profil {
+        margin-left: 80px;
+        margin-top: 20px;
+
+    }
+
+    .p1 {
+        margin-top: -31px;
+        margin-left: 170px;
+    }
+
+    .h5profil2 {
+        margin-left: 80px;
+        margin-top: 20px;
+
+    }
+
+    .btn {
+        margin-top: 40px;
+        width: 80%;
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: none;
+    }
+    .kotak3{
+        width: 95%;
+        min-height: 400px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        margin-left: 20px;
+        margin-bottom: 50px;
+        padding: 40px;
+    }
+    .judul-ptn-pts{
+        text-align:center;
+        padding: 5px;       
+        border:2px solid #e6a415;
+        height: 40px;
+        width: 100%;
+        background-color: #ffbd2e;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);      
+    }
+    .judul-ptn-pts:hover{
+        background-color: #e6a415;
+    }
+      .divfooter {
+        background-color: orange;
+        height: 5px;
+    }
+    .section-footer {
+        background-color: black;
+        height: 200px;
+        padding: 35px;
+    }
+    .h5-footer {
+        color: white;
+        font-family: 'Aquire';
+        font-size: 30px;
+    }
+    .font-footer {
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .p-footer {
+        color: #e6e6e6;
+        letter-spacing: 5px;
+    }
+      .kotak1{
+        background-color: white;
+        min-height: 200px;
+        width: 30%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        margin-top: 50px; 
+        border-radius: 5px;
+        margin-left: 25px;
+        padding: 10px;
+       
+
+    }
+    .kotak1:hover{
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    }
+    
+    .fotopenulis{
+        margin-top: 10px;
+        width: 70px;
+        height: 70px;
+        float: left;
+    }
+    .h5penulis{
+        font-size: 15px;
+        margin-top: -7px;
+        padding-left: 20px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight:600;
+    }
+    .hloginpenulis{
+        font-size: 15px;
+       
+        padding-left: 20px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight:600;
+    }
+    .ppenulis{
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.3;
+        font-weight: 500;
+        font-size: 1rem;
+        color: grey;
+        margin-top: -5px;
+    }
+    .uploadinformasi{
+        width: 100px;
+        margin-top: 70px;
+    }
+    .h4upload{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 19px;
+        font-family: 'Noto Sans', sans-serif;
+
+    }
+    .fa-university{
+        font-size: 23px;
+        margin-top: 10px;
+        margin-left: 2px;
+        float: left;
+        color:black;
+
+     }
+     .puniv{
+        padding-top: 10px;
+        font-family: 'Gilda Display', serif;
+        font-size: 19px;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: black !important;
+     }
+    .img-fluid {
+        vertical-align: middle;
+        border-radius: 5px;
+        border-style: none;
+        margin-top: 35px;
+        width: 100%;
+        height: 175px;
+        margin-left: 0px;
+        background-position: center ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+  
+    .link-drop{
+        color: black;
+
+    }
+    
+    .oldwarning{
+        margin-top: 25px;
+        width: 100%;
+        background-color: #ffcc00;
+    }
+    .oldwarning:hover{
+        background-color: black;
+        color: white;
+    }
+    .dropdown-content a:hover{
+        text-shadow: 1px 1px 1px black;
+    }
+    .btn-warnings {
+        width: 72%;
+        margin-top:-15px;
+    }
+    .btn-warnings:hover{
+        background: black;
+        color: white;
+        border: none;
+    }
+      .btn-warning{
+        width: 100%;
+        margin-top:-15px;
+    }
+    .btn-warning:hover{
+        background: black;
+        color: white;
+        border: none;
+    }
+     .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 170px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+      color: blue;
+    }
+    .link-drop{
+        color: black;
+
+    }
+    .fa-ellipsis-h{
+        margin-left: 190px;
+        
+        
+    }
+    .data{
+        margin-bottom: 40px;
+    }

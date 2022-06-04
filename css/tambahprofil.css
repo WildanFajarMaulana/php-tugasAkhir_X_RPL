@@ -1,0 +1,310 @@
+ @font-face{
+    font-family: "Aquire";
+    src:url('../font-web/AquireBold-8Ma60.otf');
+   
+    
+}
+@font-face{
+     font-family: 'Aquirebiasa';
+    src:url('../font-web/Aquire-BW0ox.otf');
+}
+body {
+   
+}
+
+.kotak-input {
+    height: 680px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: 385px;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+.h3profil {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.h3log {
+    text-align: center;
+    padding-top: 50px;
+    color: grey;
+    font-weight: 600;
+}
+
+.h4log {
+    text-align: center;
+    padding-top: -50px;
+    font-weight: 700;
+
+}
+
+.hayukhr {
+    width: 22%;
+    border-color: orange;
+}
+
+.textbox {
+    width: 73%;
+    border-color: orange;
+    margin-top: 12px;
+    margin-left: 55 px;
+}
+
+input {
+    margin-top: 13px;
+    /*border: none;*/
+    background: none;
+    outline: :none;
+    color: grey;
+    font-size: 18px;
+    width: 73%;
+    margin: 0 1-px;
+
+}
+
+.linked {
+    color: white;
+    text-shadow: 1px 2px 1px black;
+}
+
+.kerenboy {
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+    background-size: 600%;
+    animation: anime 7s linear infinite;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+}
+.kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    body {
+      background-color: #f2f2f2;
+    }
+
+    .kotak-input {
+        height: 720px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+        width: 50%;
+        margin-top: -200px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+
+    .h3profil {
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .h3log {
+        text-align: center;
+        padding-top: 50px;
+        color: grey;
+        font-family: "Aquire";
+        font-weight: 600;
+    }
+
+    .h4log {
+        text-align: center;
+        font-family: "Aquirebiasa";
+        padding-top: -50px;
+        font-weight: 700;
+
+    }
+
+    .hayukhr {
+        width: 22%;
+        border-color: orange;
+    }
+
+   
+
+    .linked {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+    }
+
+    .kerenboy {
+        border: none;
+        width: 450px;
+        height: 40px;
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #ff9900, #ff3d77, #ff8000, #ffcc80);
+        background-size: 600%;
+        animation: anime 7s linear infinite;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+
+
+    }
+    .kerenboy:hover{
+        background:orange;
+        color: white;
+        text-shadow: 1px 2px 1px black;
+        outline: none;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    @keyframes anime {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .kotak-input .input-box{
+        position: relative;     
+        margin-bottom: 30px;
+        width: 80%;
+        
+    }
+    .kotak-input .input-box input{
+        width: 100%;
+        border: none;
+        padding: 3px 5px;
+        font-size: 16px;
+        outline: none;
+        border-bottom: 2px solid orange;
+        background-color: transparent;
+        color: black;
+    }
+    .kotak-input .input-box label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: -5px;
+        padding: 10px 5px;
+        font-size: 16px;
+        color: grey;
+        pointer-events: none;
+        transition: .5s;
+        bottom: -30px;
+
+    }
+    .input-box input:focus ~ label,
+    .input-box input:valid ~ label {
+            top:-20px;
+            left: 0;
+            font-size: 12px;
+            color:black;
+            font-weight: bold;
+    }
+    .label-profil{
+        font-weight: bold;
+        font-size: 12px;
+        padding-right: 375px;
+    }
+    .profil{
+        margin-right: 35px;
+        margin-bottom: 30px;
+        margin-top: -40px;
+    }
+     .jumbotron {
+
+        background-size: cover;
+        background-image: url("../img/infoptnpts.jpg");
+        height: 535px;
+        margin-top: -80px;
+        background-attachment: fixed;
+        font-family: 'Alata', sans-serif;
+        position: relative;
+    }
+
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        position: absolute;
+        bottom: 0;
+    }
+
+    .jumbotron .container {
+        z-index: 1;
+        position: relative;
+    }
+
+    .h3info {
+        padding-top: 100px;
+        text-align: center;
+        color: white !important;
+        font-family: 'Aquire';
+        font-weight: 550;
+        font-size: 50px;
+    }
+
+    .hrbaru {
+        border-color: orange;
+        width: 20%;
+    }
+    .h4-info{
+        color: grey;
+    }
+    .btn-light{
+        width: 50%;
+    }
+    .p-foto{
+        color: var(--danger );
+        margin-right: 290px;
+        margin-top: -25px;
+        font-size: 13px;
+
+    }
+}
